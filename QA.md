@@ -62,3 +62,16 @@ Temiz PNG'deki 222.750 opak piksel kaynakla karşılaştırıldı: değişen RGB
 ## Yayın sonrası
 
 Deploy, domain bağlantısı ve DNS değişiklikleri ayrı onaylı aşamadır. Yayın sonrası HTTPS, canonical yönlendirmeleri, canlı domain HTTP kontrolleri, Search Console / Bing sitemap gönderimi ve gerçek cihaz testleri tamamlanmalıdır.
+
+## WhatsApp CTA güncellemesi
+
+- Bootstrap Icons v1.13.1 WhatsApp marka SVG yolu değiştirilmeden kullanıldı; lisans `THIRD_PARTY_NOTICES.md` içinde.
+- Floating: yeşil daire, beyaz marka logosu, 4 saniyelik hafif pulse/ring; hover scale 1.08 ve gölge geçişi doğrulandı.
+- Mobil sticky WhatsApp ikonu aynı marka ikonunu kullanıyor; animasyonu yok.
+- 375, 390, 430 ve 1440 pikselde yatay taşma yok. Mobil floating hedef 52×52, desktop 58×58; mobil sticky bar ile 21 piksel boşluk var.
+- Son verilen WhatsApp URL'si birebir doğrulandı. Tüm WhatsApp CTA'ları tek ortak URL'yi kullanıyor.
+- İstenen aria-label ve görünür 3px klavye odağı doğrulandı. Native title masaüstünde yardımcı metin sağlar.
+- Reduced-motion etkinleştirildiğinde pulse/ring ve hover scale kapanıyor.
+- Masaüstü ve mobil axe-core: 0 ihlal. Uygulama hatası yok.
+- Güncelleme sonrası build, lint ve typecheck başarılı.
+- Yalnızca WhatsApp CTA bileşenleri/stilleri ve ilgili belgeler değişti; yeni çalışma zamanı paketi veya istemci JavaScript'i eklenmedi.

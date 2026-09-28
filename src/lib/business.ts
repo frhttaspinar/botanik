@@ -4,7 +4,7 @@ export const business = {
   phone: "0538 323 30 75",
   telephone: "+905383233075",
   tel: "tel:+905383233075",
-  whatsapp: `https://wa.me/905383233075?text=${encodeURIComponent("Merhaba Botanik Taksi, Amasya Merkez'de taksi çağırmak istiyorum.")}`,
+  whatsapp: "https://wa.me/905383233075?text=Merhaba%20Botanik%20Taksi%2C%20Amasya%20Merkez%27de%20taksi%20%C3%A7a%C4%9F%C4%B1rmak%20istiyorum",
   street: "Kemalettin Güzeloğlu Sk. No:9/A",
   neighborhood: "55 Evler Mah.",
   locality: "Amasya Merkez",
